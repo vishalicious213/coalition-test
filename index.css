@@ -3,3 +3,11 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414f6a;
+    padding: .75rem 0;
+}
