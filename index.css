@@ -98,7 +98,25 @@ main {
 }
 
 .team-menu {
-    margin-left: 17%;
+    padding: .5rem;
+    padding-left: 17%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    color: #697a98;
+    background-color: #414f6a;
+}
+
+.team-menu span {
+    padding: .5rem 1rem;
+    font-weight: 600;
+}
+
+.team-menu span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #414f6a;
+    background-color: #697a98;
 }
 
 /* FOOTER */
