@@ -46,14 +46,21 @@ main {
 }
 
 #content {
-    outline: 1px solid red;
     width: 60%;
     margin: 0 auto;
 }
 
 .hx-content {
-    outline: 2px solid orange;
-    padding: 8rem 0 0;
+    position: relative;
+    top: 8rem;
+}
+
+.content-number {
+    width: 25%;
+}
+
+.content-text {
+    margin-left: calc(1rem + 3vw);
 }
 
 footer {
