@@ -46,7 +46,7 @@ main {
 }
 
 #content {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -67,10 +67,14 @@ main {
     position: relative;
     top: 8rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 1.5rem 0;
 }
 
 .team-header {
-    width: 40%;
+    width: 20%;
 }
 
 .team-number {
@@ -78,6 +82,7 @@ main {
 }
 
 .team-text {
+    width: 40%;
     margin-left: 2rem;
 }
 
