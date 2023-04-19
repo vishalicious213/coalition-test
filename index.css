@@ -4,12 +4,14 @@ body {
     box-sizing: border-box;
 }
 
-footer {
+ul {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #414f6a;
-    padding: .75rem 0;
+    list-style: none;
+    text-decoration: underline;
+}
+
+li {
+    margin: 0 1rem;
 }
 
 main {
@@ -18,4 +20,12 @@ main {
     background-size: cover;
     background-position: center;
     background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #414f6a;
+    padding: .75rem 0;
 }
