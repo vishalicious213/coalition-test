@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 header {
@@ -42,6 +43,17 @@ main {
     background-size: cover;
     background-position: center;
     background-color: white;
+}
+
+#content {
+    outline: 1px solid red;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.hx-content {
+    outline: 2px solid orange;
+    padding: 8rem 0 0;
 }
 
 footer {
