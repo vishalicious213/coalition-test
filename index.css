@@ -63,6 +63,24 @@ main {
     margin-left: calc(1rem + 3vw);
 }
 
+.team-content {
+    position: relative;
+    top: 8rem;
+    display: flex;
+}
+
+.team-header {
+    width: 75%;
+}
+
+.team-number {
+    width: 100%;
+}
+
+.team-text {
+    margin-left: 2rem;
+}
+
 footer {
     height: 8vh;
     display: flex;

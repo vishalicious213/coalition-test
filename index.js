@@ -37,6 +37,15 @@ function renderHistoryPage() {
 function renderTeamPage() {
     main.style.backgroundImage = `url(/img/background-3.jpg)`
     content.innerHTML = ""
+
+    content.innerHTML += `
+    <div class="team-content">
+        <div class="team-header">
+            <img class="team-number" src="/img/02.png">
+        </div>
+        <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+`
 }
 
 // ⬇️ RENDER THE APP ⬇️
@@ -47,4 +56,4 @@ function renderMain() {
 }
 
 // renderMain()
-renderHistoryPage()
+renderTeamPage()
