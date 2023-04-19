@@ -1,8 +1,13 @@
 const main = document.getElementById("main")
+const logo = document.getElementById("logo")
 const menu01 = document.getElementById("menu-01")
 const menu02 = document.getElementById("menu-02")
 
 // ⬇️ EVENT LISTENERS ⬇️
+
+logo.addEventListener("click", function() {
+    renderMain()
+})
 
 menu01.addEventListener("click", function() {
     renderHistoryPage()
