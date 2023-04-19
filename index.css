@@ -124,9 +124,11 @@ main {
 /* SCHEDULE TABLE */
 
 .schedule {
-    outline: 1px solid red;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.75);
     padding: .75rem 2rem;
+    width: 15rem;
+    margin-left: 17%;
+    margin-top: 5rem;
 }
 
 .schedule h2 {
@@ -135,6 +137,15 @@ main {
     font-size: 2rem;
     letter-spacing: .1rem;
     color: #414f6a;
+}
+
+table {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75rem;
+}
+
+.schedule-date {
+    padding-right: 2.25rem;
 }
 
 .empty-row {

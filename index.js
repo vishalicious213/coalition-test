@@ -58,21 +58,21 @@ function renderTeamPage() {
                 <h2>Schedule</h2>
                 <table>
                     <tr>
-                        <td>25 Nov 2016</td>
+                        <td class="schedule-date">25 Nov 2016</td>
                         <td>Vestibulum viverra</td>
                     </tr>
                     <tr>
-                        <td>28 Nov 2016</td>
-                        <td>Vestibulum viverra</td>
-                    </tr>
-                    <tr class="empty-row"></tr>
-                    <tr>
-                        <td>18 Dec 2016</td>
+                        <td class="schedule-date">28 Nov 2016</td>
                         <td>Vestibulum viverra</td>
                     </tr>
                     <tr class="empty-row"></tr>
                     <tr>
-                        <td>07 Jan 2017</td>
+                        <td class="schedule-date">18 Dec 2016</td>
+                        <td>Vestibulum viverra</td>
+                    </tr>
+                    <tr class="empty-row"></tr>
+                    <tr>
+                        <td class="schedule-date">07 Jan 2017</td>
                         <td>Vestibulum viverra</td>
                     </tr>
                 </table>
