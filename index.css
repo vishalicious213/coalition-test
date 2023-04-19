@@ -5,6 +5,8 @@ body {
     position: relative;
 }
 
+/* HEADER */
+
 header {
     position: fixed;
     display: flex;
@@ -37,6 +39,8 @@ li:hover {
     cursor: pointer;
 }
 
+/* MAIN CONTENT */
+
 main {
     height: 92vh;
     background-repeat: no-repeat;
@@ -49,6 +53,8 @@ main {
     width: 100%;
     margin: 0 auto;
 }
+
+/* HISTORY PAGE */
 
 .hx-content {
     position: relative;
@@ -63,9 +69,14 @@ main {
     margin-left: calc(1rem + 3vw);
 }
 
-.team-content {
+/* TEAM PAGE */
+
+.team-container {
     position: relative;
     top: 8rem;
+}
+
+.team-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,6 +96,12 @@ main {
     width: 40%;
     margin-left: 2rem;
 }
+
+.team-menu {
+    margin-left: 17%;
+}
+
+/* FOOTER */
 
 footer {
     height: 8vh;

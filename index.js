@@ -29,6 +29,7 @@ function renderHistoryPage() {
             <div class="content-header">
                 <img class="content-number" src="/img/01.png">
             </div>
+
             <p class="content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
         </div>
     `
@@ -39,13 +40,21 @@ function renderTeamPage() {
     content.innerHTML = ""
 
     content.innerHTML += `
-    <div class="team-content">
-        <div class="team-header">
-            <img class="team-number" src="/img/02.png">
+        <div class="team-container">
+            <div class="team-content">
+                <div class="team-header">
+                    <img class="team-number" src="/img/02.png">
+                </div>
+
+                <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="team-menu">
+                <span>Mountain 1</span>
+                <span>Mountain 2</span>
+            </div>
         </div>
-        <p class="team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-`
+    `
 }
 
 // ⬇️ RENDER THE APP ⬇️
