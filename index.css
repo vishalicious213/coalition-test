@@ -13,6 +13,10 @@ header {
     margin-top: .5rem;
 }
 
+.logo:hover {
+    cursor: pointer;
+}
+
 ul {
     display: flex;
     list-style: none;
