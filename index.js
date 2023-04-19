@@ -40,7 +40,7 @@ function renderTeamPage() {
     content.innerHTML = ""
 
     content.innerHTML += `
-        <div class="team-container">
+        <section class="team-container">
             <div class="team-content">
                 <div class="team-header">
                     <img class="team-number" src="/img/02.png">
@@ -53,7 +53,31 @@ function renderTeamPage() {
                 <span>Mountain 1</span>
                 <span>Mountain 2</span>
             </div>
-        </div>
+
+            <div class="schedule">
+                <h2>Schedule</h2>
+                <table>
+                    <tr>
+                        <td>25 Nov 2016</td>
+                        <td>Vestibulum viverra</td>
+                    </tr>
+                    <tr>
+                        <td>28 Nov 2016</td>
+                        <td>Vestibulum viverra</td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>18 Dec 2016</td>
+                        <td>Vestibulum viverra</td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>07 Jan 2017</td>
+                        <td>Vestibulum viverra</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
     `
 }
 
