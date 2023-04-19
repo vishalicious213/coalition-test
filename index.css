@@ -67,6 +67,7 @@ main {
 
 .content-text {
     margin-left: calc(1rem + 3vw);
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* TEAM PAGE */
@@ -95,6 +96,7 @@ main {
 .team-text {
     width: 40%;
     margin-left: 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .team-menu {
