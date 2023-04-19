@@ -37,7 +37,7 @@ li:hover {
 }
 
 main {
-    height: 90vh;
+    height: 92vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,9 +45,9 @@ main {
 }
 
 footer {
+    height: 8vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #414f6a;
-    padding: .75rem 0;
 }
