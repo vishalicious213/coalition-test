@@ -5,12 +5,22 @@ const menu02 = document.getElementById("menu-02")
 // ⬇️ EVENT LISTENERS ⬇️
 
 menu01.addEventListener("click", function() {
-    console.log("history")
+    renderHistoryPage()
 })
 
 menu02.addEventListener("click", function() {
-    console.log("team")
+    renderTeamPage()
 })
+
+// ⬇️ EVENT HANDLERS ⬇️
+
+function renderHistoryPage() {
+    main.style.backgroundImage = `url(/img/background-2.jpg)`
+}
+
+function renderTeamPage() {
+    main.style.backgroundImage = `url(/img/background-3.jpg)`
+}
 
 // ⬇️ RENDER THE APP ⬇️
 
