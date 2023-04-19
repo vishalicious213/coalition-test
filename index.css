@@ -4,14 +4,32 @@ body {
     box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: .5rem;
+}
+
 ul {
     display: flex;
     list-style: none;
     text-decoration: underline;
+    color: white;
 }
 
 li {
     margin: 0 1rem;
+    font-style: italic;
+    font-size: .75rem;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+
+li:hover {
+    cursor: pointer;
 }
 
 main {
