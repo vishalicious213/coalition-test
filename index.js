@@ -65,12 +65,12 @@ function renderTeamPage() {
                         <td>28 Nov 2016</td>
                         <td>Vestibulum viverra</td>
                     </tr>
-                    <tr></tr>
+                    <tr class="empty-row"></tr>
                     <tr>
                         <td>18 Dec 2016</td>
                         <td>Vestibulum viverra</td>
                     </tr>
-                    <tr></tr>
+                    <tr class="empty-row"></tr>
                     <tr>
                         <td>07 Jan 2017</td>
                         <td>Vestibulum viverra</td>
